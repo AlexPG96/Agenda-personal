@@ -4,3 +4,109 @@
     box-sizing: border-box;
 }
 
+#mi_agenda{
+    max-width: 50em;
+    max-height: 50em;
+    margin: 6em auto;
+    background-color: lightblue;
+    box-shadow: 2px 11px 14px -4px rgba(0,0,0,0.5);
+    
+}
+
+.container_header form{
+    margin: 1em;
+    
+}
+
+header{
+    background-color: rgba(65, 105, 225, 0.8);
+    padding: 0.3em;
+    
+}
+
+.container_header form div input{
+    width: 18em;
+    margin: 1em 2em;
+    height: 2em;
+    border-radius: 25px;
+    border: 1px dashed darkblue;
+    text-align: center;
+}
+
+#agregarTarea {
+    width: 8em;
+    margin: 1em 0 0 1em;
+    height: 2em;
+    border-radius: 25px;
+
+}
+
+.añadirTarea {
+    background-color: white ;
+    float: right;
+    padding: 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+    margin: -2em 1.4em 0 0;
+    width: 5em;
+    height: 1.5em;
+    border: 1px dashed darkblue;
+    cursor: pointer;
+    
+}
+
+.añadirTarea:hover {
+    background-color: lightblue ;
+    font-size: 25px;
+    transition: 1s;
+    margin: -1.8em 1em 0 0;
+
+}
+
+.colocar {
+    margin: 0 auto;
+}
+
+hr {
+    width: 45em;
+    margin: 0 auto;
+}
+
+
+
+#buscarTarea{
+    width: 8em;
+    margin: 1em;
+    height: 2em;
+    border-radius: 25px;
+}
+
+main #tareas article{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+main #tareas h3{
+    font-size: 50px;
+    padding: 10px;
+    
+}
+
+main #tareas div{
+    position: absolute;
+    display: block;
+    right: 0;
+    background-color: tomato;
+    text-align: center;
+    color: black;
+    padding: 29px;
+    cursor: pointer;
+
+}
+
+footer{
+    padding: 10px;
+    text-align: right;
+}

@@ -9,47 +9,59 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container">
-            <div>
-                <h3>Mi agenda</h3>
+    <div id="mi_agenda">
+        <header>
+            <div class="container_header">
                 <form action="">
-                    <div>
-                        <input type="text">
+                    <div class="colocar">
+                        <input type="text" placeholder=" Nueva tarea...">
                         <select id="agregarTarea">
-                            <option value="">Selecciona tu tarea</option>
-                            <option value="1">Diaria</option>
-                            <option value="2">Mensual</option>
-                            <option value="3">Anual</option>
+                            <option value="">Prioridad</option>
+                            <option value="1">Urgente</option>
+                            <option value="2">Diaria</option>
+                            <option value="3">Mensual</option>
                         </select>
                     </div>
-                    <input type="submit" id="botonFiltrar" value="Guardar">
+                    <button class="añadirTarea">Añadir</button>
+                </form>
+                <hr>
+                <form action="">
+                    <div class="colocar">
+                        <input type="text" placeholder=" Buscar tarea">
+                        <select id="buscarTarea">
+                            <option value="">Prioridad</option>
+                            <option value="1">Urgente</option>
+                            <option value="2">Diaria</option>
+                            <option value="3">Mensual</option>
+                        </select>
+                    </div>
                 </form>
             </div>
-        </div>
-    </header>
-    <main>
-        <div>
-            <select id="buscarTarea">
-                <option value="">Selecciona tu tarea</option>
-                <option value="1">Diaria</option>
-                <option value="2">Mensual</option>
-                <option value="3">Anual</option>
-            </select>
-            <input type="text">
-        </div>
-        <section id="tareas">
-            <article>
-                <h3>Nombre de la tarea</h3>
-                <div class="eliminar">Eliminar</div>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <h3>APP TODO'S ALEX</h3>
-    </footer>
-
+        </header>
+        <main>
+            <section id="tareas">
+                <article>
+                    <div class="eliminar">Eliminar</div>
+                    <h3>Nombre de la tarea</h3>
+                </article>
+                <article>
+                    <div class="eliminar">Eliminar</div>
+                    <h3>Nombre de la tarea</h3>
+                </article>
+                <article>
+                    <div class="eliminar">Eliminar</div>
+                    <h3>Nombre de la tarea</h3>
+                </article>
+                <article>
+                    <div class="eliminar">Eliminar</div>
+                    <h3>Nombre de la tarea</h3>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <h3>APP TODO'S ALEX</h3>
+        </footer>
+    </div>
 
 
 </body>
