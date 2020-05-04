@@ -83,7 +83,6 @@ hr {
 }
 
 main #tareas article{
-    background-color: black;
     color: white;
     position: relative;
 }
@@ -109,4 +108,16 @@ main #tareas div{
 footer{
     padding: 10px;
     text-align: right;
+}
+
+.urgente {
+    background-color: crimson;
+}
+
+.mensual {
+    background-color: blue;
+}
+
+.diaria {
+    background-color: green;
 }
